@@ -1,0 +1,230 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: montserrat;
+}
+
+@font-face {
+    font-family: montserrat;
+    src: url(../font/Montserrat-Italic-VariableFont_wght.ttf);
+}
+header{
+    width: 100vw;
+    height: 100vh;
+    background-image:url(../png/facpng/anhbia.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.menubar{
+    display: flex;
+    justify-content: space-around;
+}
+.luxury{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: 256px;
+    height: 149px;
+    background-color: #E0B973;
+    box-sizing: border-box;
+    border-radius: 0 0 50px 50px;
+}
+.menu{
+    display: flex;
+    margin-top: 60.5px;
+    gap: 50px;
+    font-size: 25px;
+}
+.menu a{
+    color: #fff;
+    text-decoration: none;
+}
+.textinf{
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 140px;
+    font-size: 36px;
+    background-color: #fff;
+}
+.text{
+    display: inline;
+    padding-top: 100px;
+    padding-left: 10px;
+    text-align: center;
+}
+.gym {
+    margin-top: 200px;
+    margin-left: 130px;
+    width: 1280px;
+    height: 1052px;
+    background-image: url(../png/facpng/gym.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+.gym1{
+    background-color: #fff;
+    color: black;
+    position: absolute;
+    bottom: 0;
+    left: 40%;
+    width: 300px;
+    text-align: center;
+}
+.pool {
+    margin-top: 200px;
+    margin-left: 130px;
+    width: 1280px;
+    height: 1052px;
+    background-image: url(../png/facpng/pool.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+.pool1{
+    background-color: #fff;
+    color: black;
+    position: absolute;
+    bottom: 0;
+    left: 40%;
+    width: 300px;
+    text-align: center;
+}
+.spa {
+    margin-top: 200px;
+    margin-left: 130px;
+    width: 1280px;
+    height: 1052px;
+    background-image: url(../png/facpng/spa.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+.spa1{
+    background-color: #fff;
+    color: black;
+    position: absolute;
+    bottom: 0;
+    left: 40%;
+    width: 300px;
+    text-align: center;
+}
+.swing {
+    margin-top: 200px;
+    margin-left: 130px;
+    width: 1280px;
+    height: 1052px;
+    background-image: url(../png/facpng/swing.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+.swing1{
+    background-color: #fff;
+    color: black;
+    position: absolute;
+    bottom: 0;
+    left: 40%;
+    width: 300px;
+    text-align: center;
+}
+.retau {
+    margin-top: 200px;
+    margin-left: 130px;
+    width: 1280px;
+    height: 1052px;
+    background-image: url(../png/facpng/restau.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+.retau1{
+    background-color: #fff;
+    color: black;
+    position: absolute;
+    bottom: 0;
+    left: 40%;
+    width: 300px;
+    text-align: center;
+}
+.laudy {
+    margin-top: 200px;
+    margin-left: 130px;
+    width: 1280px;
+    height: 1052px;
+    background-image: url(../png/facpng/laudy.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+.laudy1{
+    background-color: #fff;
+    color: black;
+    position: absolute;
+    bottom: 0;
+    left: 40%;
+    width: 300px;
+    text-align: center;
+}
+.conten{
+    background-color: #14274A;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1530px;
+    height: 266px;
+}
+.conten a{
+    color: #fff;
+}
+input{
+    margin-top: 20px;
+    background-color: #14274A;
+    width: 280px;
+    height: 52px;
+    border: 2px solid #E0B973;
+    padding-left: 10px;
+}
+button{
+    background-color: #E0B973;
+    height: 52px;
+    width: 80px;
+}
+.conten2 li a{
+    text-decoration: none;
+
+}
+.conten1 li a{
+    text-decoration: none;
+}
+.conten1 li{
+    list-style: none;
+}
+.conten2 li{
+    list-style: none;
+}
+.foot{
+    background-color: #14274A;
+    width: 13px;
+    height: 18px;
+}

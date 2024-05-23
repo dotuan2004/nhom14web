@@ -1,0 +1,252 @@
+<<<<<<< HEAD
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: montserrat;
+}
+
+@font-face {
+    font-family: montserrat;
+    src: url(../font/Montserrat-Italic-VariableFont_wght.ttf);
+}
+header{
+    width: 100vw;
+    height: 100vh;
+    background-image:url(../png/homepng/anhbia.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.menubar{
+    display: flex;
+    justify-content: space-around;
+}
+.luxury{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: 256px;
+    height: 149px;
+    background-color: #E0B973;
+    box-sizing: border-box;
+    border-radius: 0 0 50px 50px;
+}
+.menu{
+    display: flex;
+    margin-top: 60.5px;
+    gap: 50px;
+    font-size: 25px;
+}
+.menu a{
+    color: #fff;
+    text-decoration: none;
+}
+.textinf{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 140px;
+    font-size: 36px;
+    background-color: #fff;
+}
+.maincontent{
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.maincontent .content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.maincontent .content img{
+    width: 864px;
+    height: 574px;
+}
+.noidung{
+    font-size: 25px;
+    display: block;
+    width: 562px;
+    border-left: solid black;
+    padding-left: 20px;
+}
+.conten{
+    background-color: #14274A;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1530px;
+    height: 266px;
+}
+.conten a{
+    color: #fff;
+}
+input{
+    margin-top: 20px;
+    background-color: #14274A;
+    width: 280px;
+    height: 52px;
+    border: 2px solid #E0B973;
+    padding-left: 10px;
+}
+.nut{
+    background-color: #E0B973;
+    height: 52px;
+    width: 80px;
+}
+.conten2 li a{
+    text-decoration: none;
+
+}
+.conten1 li a{
+    text-decoration: none;
+}
+.conten1 li{
+    list-style: none;
+}
+.conten2 li{
+    list-style: none;
+}
+.nutbam{
+    background-color: #E0B973;
+    height: 52px;
+    width: 180px;
+    margin-top: 30px;
+    border-radius: 5px;
+    border: #fff;
+}
+.foot{
+    background-color: #14274A;
+    width: 13px;
+    height: 18px;
+=======
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: montserrat;
+}
+
+@font-face {
+    font-family: montserrat;
+    src: url(../font/Montserrat-Italic-VariableFont_wght.ttf);
+}
+header{
+    width: 100vw;
+    height: 100vh;
+    background-image:url(../png/homepng/anhbia.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.menubar{
+    display: flex;
+    justify-content: space-around;
+}
+.luxury{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: 256px;
+    height: 149px;
+    background-color: #E0B973;
+    box-sizing: border-box;
+    border-radius: 0 0 50px 50px;
+}
+.menu{
+    display: flex;
+    margin-top: 60.5px;
+    gap: 50px;
+    font-size: 25px;
+}
+.menu a{
+    color: #fff;
+    text-decoration: none;
+}
+.textinf{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 140px;
+    font-size: 36px;
+    background-color: #fff;
+}
+.maincontent{
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.maincontent .content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.maincontent .content img{
+    width: 864px;
+    height: 574px;
+}
+.noidung{
+    font-size: 25px;
+    display: block;
+    width: 562px;
+    border-left: solid black;
+    padding-left: 20px;
+}
+.conten{
+    background-color: #14274A;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1530px;
+    height: 266px;
+}
+.conten a{
+    color: #fff;
+}
+input{
+    margin-top: 20px;
+    background-color: #14274A;
+    width: 280px;
+    height: 52px;
+    border: 2px solid #E0B973;
+    padding-left: 10px;
+}
+.nut{
+    background-color: #E0B973;
+    height: 52px;
+    width: 80px;
+}
+.conten2 li a{
+    text-decoration: none;
+
+}
+.conten1 li a{
+    text-decoration: none;
+}
+.conten1 li{
+    list-style: none;
+}
+.conten2 li{
+    list-style: none;
+}
+.nutbam{
+    background-color: #E0B973;
+    height: 52px;
+    width: 180px;
+    margin-top: 30px;
+    border-radius: 5px;
+    border: #fff;
+}
+.foot{
+    background-color: #14274A;
+    width: 13px;
+    height: 18px;
+>>>>>>> 9d854473d222a655b46a205c1fd3956efc26056d
+}
